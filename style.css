@@ -1,0 +1,29 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #808b96;
+}
+
+.lead {
+  color: white;
+}
+
+#title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#info {
+  text-align: left;
+}
+
+#text {
+  text-align: justify;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
