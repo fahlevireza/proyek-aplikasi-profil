@@ -1,1 +1,4 @@
-runtime: nodejs16
+runtime: nodejs14
+
+env_variables:
+  GCLOUD_STORAGE_BUCKET: submission-project1.appspot.com
