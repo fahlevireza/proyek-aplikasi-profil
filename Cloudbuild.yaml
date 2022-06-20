@@ -4,7 +4,7 @@ steps:
     args: ['build', '-t', 'gcr.io/my-project/github.com/username/project.com:$COMMIT_SHA', '.']
   # Push the image to Container Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/my-project/github.com/username/project.com:$COMMIT_SHA', './backend']
+    args: ['push', 'gcr.io/my-project/github.com/username/project.com:$COMMIT_SHA']
   # Deploy image to Cloud Run
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
