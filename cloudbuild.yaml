@@ -10,7 +10,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - '[service_name]'
+      - '[service-name]'
       - '--image'
       - 'gcr.io/my-project/github.com/username/project.com:$COMMIT_SHA'
       - '--region'
